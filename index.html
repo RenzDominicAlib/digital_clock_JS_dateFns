@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style>
+	body{
+		background: #eee;
+	}
+	.clock{
+		box-sizing: border-box;
+		width: 1200px;
+		height: 150px;
+		font-size: 4em;
+		text-align: center;
+		margin: 300px auto;
+		color: mistyrose;
+		font-family: cursive;
+		border: 2px solid red;
+		position: relative;
+		display: flex;
+	}
+	.clock span{
+		padding: 20px;
+		background: rgba(0, 0, 0, 0.5);
+		flex-wrap: wrap;
+		width: 100%;
+		
+	}
+	.clock p{
+		font-size: 1em;
+		text-align: center;
+		width: 1160px;
+		margin: 10px auto;
+		padding: 20px;
+		background: rgba(0, 0, 0, 0.9);
+		position: absolute;
+		top: 200px;
+	}
+
+</style>
+<body>
+	
+	<div class="clock"></div>
+
+	<script src="http://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script>
+	<script src="digital_clock.js"></script>
+</body>
+</html>
